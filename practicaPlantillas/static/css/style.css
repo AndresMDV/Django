@@ -1,15 +1,22 @@
 :root{
     --color-primary: #ffce00;
-    --color-secundary: #ffa300;
+    --color-secondary: #ffa300;
     --color-text: #707789;
-    --color-bg: #dedede;
+    --color-bg: #gray;
     --font-title: smile;
+    --font-text: louis;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    color: var(--color-text);
 }
 
 nav{
@@ -50,6 +57,12 @@ nav ul li a:hover {
 
 main {
     background-color: var(--color-bg);
+    width: 100wv;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 footer {
@@ -64,7 +77,7 @@ footer ul{
     list-style-type: none;
 }
 
-footer ul li{
+footer ul li a{
     color: var(--color-bg);
     text-decoration: none;
 }
@@ -73,8 +86,29 @@ footer img {
     margin: 25px;
 }
 
+.about{
+    display: flex;
+    padding: 25px;
+}
+
+.about-content{
+    width: 350px;
+    padding: 50px;
+}
+
+.photos {
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
 
 @font-face{
     font-family: smile;
     src: url('../fonts/smile.otf');
+}
+@font-face{
+    font-family: louis;
+    src: url('../fonts/Luis.ttf');
 }
