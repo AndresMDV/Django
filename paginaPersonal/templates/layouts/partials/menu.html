@@ -1,0 +1,16 @@
+{% load static %}
+
+<header>
+    <div class="container">
+        <a  class="logo" href="{% url 'index' %}">
+            <img class="logo" src="{% static 'img/logo.png' %}" alt="logo">
+            <img class="logo" src="{% static 'img/logo.png' %}" alt="logo">
+        </a>
+        <nav>
+            <a href="{% url 'index' %}">Inicio</a>
+            <a href="{% url 'index' %}">¿Quienes somos?</a>
+            <a href="{% url 'index' %}">Consultorias</a>
+        </nav>
+
+    </div>
+</header>
