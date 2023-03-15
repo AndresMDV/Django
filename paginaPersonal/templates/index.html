@@ -1,76 +1,70 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
 {% load static %}
-   <div class="br1"></div>
-        <section id="hero">
-            <div class="logo-hero">
-                <img src="{% static 'img/logo.png' %}" alt="">
+<section id="soy">
+    <div class="container">
+        <div class="img-container">
+            <img src="{% static 'img/logo.png' %}" alt="">
+        </div>
+        <div class="texto">
+            <p>
+                Ingeniero fisico con conocimientos en desarrollo de software y automatización de pruebas
+                (Python, Selenium, Appium, Django, FastApi, Pandas, Numpy, Matplotlib, Java,
+                Javascript, SQL, HTML, CSS, Microsoft Project, Power BI, Proteus, Matlab, Quartus,
+                Word, Excel, Power Point entre otros).
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="nuestros-principios">
+    <div class="container">
+        <h2>AMPLIOS CONOCIMIENTOS</h2>
+        <div class="principios">
+            <div class="carta">
+                <img class="logo-carta" src="{% static 'img/python.svg' %}" alt="">
+                <h3>Python</h3>
+                <p>Disponer toda la capacidad científica, técnica y profesional en el desarrollo de la misión encomendada por nuestros clientes.</p>
             </div>
-            <h1>Investigación <br>Innovación <br> Desarrollo</h1>
-        </section>
-
-        <div class="br2"></div>
-
-        <section id="somos">
-            <div class="container">
-                <div class="img-container">
-                    <img src="{% static 'img/logo.png' %}" alt="">
-                </div>
-                <div class="texto">
-                    <p>Somos una firma dedicada a prestar servicios de
-                        desarrollo económico y social, especializados en
-                        derecho civil, contractual, administrativo,
-                        constitucional, consulta previa, derecho agrario,
-                        ambiental y la gestión jurídica de predios.
-                    </p>
-                </div>
+            <div class="carta">
+                <img class="logo-carta" src="{% static 'img/django.png' %}" alt="">
+                <h3>Django</h3>
+                <p>Nuestro criterio técnico jurídico esta mediado por la profesionalidad, la equidad y la justicia basado en la aplicación de las leyes vigentes y no bajo la sujeción a modos de pensar y actuar.</p>
             </div>
-        </section>
-
-
-        <section id="nuestros-principios">
-            <div class="container">
-                <h2>NUESTROS PRINCIPIOS</h2>
-                <div class="principios">
-                    <div class="carta">
-                        <img class="logo-carta" src="{% static 'img/logo.png' %}" alt="">
-                        <h3>Transparencia</h3>
-                        <p>Disponer toda la capacidad científica, técnica y profesional en el desarrollo de la misión encomendada por nuestros clientes.</p>
-                    </div>
-                    <div class="carta">
-                        <img class="logo-carta" src="{% static 'img/logo.png' %}" alt="">
-                        <h3>Independencia</h3>
-                        <p>Nuestro criterio técnico jurídico esta mediado por la profesionalidad, la equidad y la justicia basado en la aplicación de las leyes vigentes y no bajo la sujeción a modos de pensar y actuar.</p>
-                    </div>
-                    <div class="carta">
-                        <img class="logo-carta" src="{% static 'img/logo.png' %}" alt="">
-                        <h3>Responsabilidad</h3>
-                        <p>Estudiamos con dedicación, profundidad e integralidad los problemas jurídicos encomendados de tal manera que podamos ofrecer a nuestros clientes las diversas opciones que nos ofrece el ámbito del derecho.</p>
-                    </div>
-                </div>
+            <div class="carta">
+                <img class="logo-carta" src="{% static 'img/logo.png' %}" alt="">
+                <h3>Fast-api</h3>
+                <p>Estudiamos con dedicación, profundidad e integralidad los problemas jurídicos encomendados de tal manera que podamos ofrecer a nuestros clientes las diversas opciones que nos ofrece el ámbito del derecho.</p>
             </div>
-        </section>
-
-        <section id="areas-trabajo">
-            <div class="container">
-                <h2>AREAS DE TRABAJO</h2>
-                <div class="ul">
-                    <ul class="ul1">
-                        <li>Derecho constitucional.</li>
-                        <li>Derecho administrativo.</li>
-                        <li>Derecho contractual.</li>
-                        <li>Derecho civil.</li>
-                        <li>Derecho agrario.</li>
-                    </ul>
-                    <ul class="ul2">
-                        <li>Derecho ambiental.</li>
-                        <li>Derecho penal.</li>
-                        <li>Investigacion y desarrollo.</li>
-                        <li>Proyectos productivos.</li>
-                        <li>Planteamiento ambiental.</li>
-                    </ul>
-                </div>
+            <div class="carta">
+                <img class="logo-carta" src="{% static 'img/logo.png' %}" alt="">
+                <h3>Selenium</h3>
+                <p>Estudiamos con dedicación, profundidad e integralidad los problemas jurídicos encomendados de tal manera que podamos ofrecer a nuestros clientes las diversas opciones que nos ofrece el ámbito del derecho.</p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+<section id="areas-trabajo">
+    <div class="container">
+        <h2>AREAS DE TRABAJO</h2>
+        <div class="ul">
+            <ul class="ul1">
+                <li>Derecho constitucional.</li>
+                <li>Derecho administrativo.</li>
+                <li>Derecho contractual.</li>
+                <li>Derecho civil.</li>
+                <li>Derecho agrario.</li>
+            </ul>
+            <ul class="ul2">
+                <li>Derecho penal.</li>
+                <li>Investigacion y desarrollo.</li>
+                <li>Proyectos productivos.</li>
+                <li>Planteamiento ambiental.</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 {% endblock %}

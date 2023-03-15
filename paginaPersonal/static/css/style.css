@@ -8,12 +8,12 @@
 
 
 body{
-    font-family: 'Jost';
+    font-family: 'luis';
     margin: 0;
 }
 h1{font-size: 2em;}
 h2{font-size: 2.7em; color: white;}
-h3{font-size: 2em; color: #0C7135;}
+h3{font-size: 2em; color: white;}
 p{font-size: 25px; color: white; text-align: end;}
 ul{list-style: none;}
 li{ font-size: 1.25em;}
@@ -25,16 +25,15 @@ a{text-decoration: none;}
 }
 
 header{
-    background-color: #0C7135;
+    background-color: #212529;
 }
 
-header .logo{
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-}
-header .logo img{
-    width: 5em;
+.logo-text{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 header .container{
@@ -50,7 +49,7 @@ header nav{
     padding-bottom: 0px;
 }
 
-header a{
+header nav a{
     padding: 3px 7px;
     text-decoration: none;
     color: white;
@@ -59,56 +58,22 @@ header a{
 }
 
 header a:hover{
-    color: black
+    color: #6C757D;
 }
 
-#hero{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: end;
-    flex-direction: column;
-    height: 45vh;
-    color: white;
-    background-color:black;
-}
-
-#hero h1{
-    margin-right: 75px;
-    margin-top: 5px;
-}
-
-#hero .logo-hero img{
-    margin-right: 75px;
-    margin-top: 45px;
-    width: 6em;
-
-
-}
-.br1{
-    background-color: white;
-    height: 1.2em;
-}
-
-
-.br2{
-    background-color: #C6D435;
-    height: 1.2em;
-}
-
-#somos .container{
+#soy .container{
     text-align: center;
     padding: 80px 12px;
 }
 
-#somos p{
-    color: #0C7135;
+#soy p{
+    color: #6C757D;
     text-align: center;
     font-weight: bold;
 }
 
 #nuestros-principios{
-background-color: #C6D435;
+background-color: #212529;
 text-align: center;
 }
 
@@ -179,7 +144,7 @@ text-align: center;
 }
 
 footer{
-    background-color: #0C7135;
+    background-color: #212529;
     margin: 0px;
 }
 
@@ -197,7 +162,7 @@ footer .fi{
 }
 footer .fi:hover{
     font-size: 2.2em;
-    color: #C6D435;
+    color: #6C757D;
 }
 
 footer .contacto{
@@ -230,14 +195,14 @@ footer .facebook{
     color: white;
     margin-right: 10px;
 }
-footer .twitter{
+footer .github{
     color: white;
     margin-right: 10px;
 }
-/*footer .linkedin{
+footer .linkedin{
     color: white;
     margin-right: 10px;
-}*/
+}
 
 footer  .fi-brands-instagram{
     width: 50px;
@@ -264,7 +229,7 @@ footer  .fi-brands-instagram{
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 30px;
-    }
+    }.</li>
 
     header a{
         font-size: 1.2em;
@@ -282,13 +247,13 @@ footer  .fi-brands-instagram{
         margin-right: 100px;
     }
 
-    #somos .container{
+    #soy .container{
         display: flex;
         justify-content: space-evenly;
 
     }
 
-    #somos .texto{
+    #soy .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -298,7 +263,7 @@ footer  .fi-brands-instagram{
     }
 
 
-    #somos .img-container{
+    #soy .img-container{
         background-color: gray;
         background-size: cover;
         background-position: center center;
@@ -371,4 +336,13 @@ footer  .fi-brands-instagram{
     #nuestros-principios p{
         width: 400px;
     }
+}
+
+@font-face{
+    font-family: smile;
+    src: url('../fonts/smile.otf');
+}
+@font-face{
+    font-family: luis;
+    src: url('../fonts/Luis.ttf');
 }
