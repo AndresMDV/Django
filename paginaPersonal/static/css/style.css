@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import  url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'luis';
+    margin: 0;
+}
+h1{font-size: 2em;}
+h2{font-size: 2.7em; color: white;}
+h3{font-size: 2em; color: white;}
+p{font-size: 25px; color: white; text-align: end;}
+ul{list-style: none;}
+li{ font-size: 1.25em;}
+a{text-decoration: none;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #212529;
+}
+
+.logo-text{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+header nav a{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+header a:hover{
+    color: #6C757D;
+}
+
+#soy .container{
+    text-align: center;
+    padding: 80px 12px;
+}
+
+#soy p{
+    color: #6C757D;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nuestros-principios{
+background-color: #212529;
+text-align: center;
+}
+
+#nuestros-principios .container{
+    padding: 80px 12px;
+}
+
+#nuestros-principios h2{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#nuestros-principios p{
+    display: none;
+}
+
+#nuestros-principios .carta{
+    padding: 10px;
+    margin: 5px;
+}
+
+.logo-carta{
+    width: 6.8em;
+}
+
+#areas-trabajo .container{
+    padding: 80px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#areas-trabajo h2{
+    color: #0C7135;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+
+#areas-trabajo div .ul{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+
+#areas-trabajo ul{
+    list-style: inside;
+    margin: 0;
+}
+
+#areas-trabajo .ul1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#areas-trabajo .ul2{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+#areas-trabajo li{
+    color: #0C7135;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #212529;
+    margin: 0px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+}
+
+footer .fi{
+    font-size: 2em;
+}
+footer .fi:hover{
+    font-size: 2.2em;
+    color: #6C757D;
+}
+
+footer .contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .contacto h3{
+    display: none;
+}
+footer .contacto a{
+    color: white;
+}
+footer .contacto .texto-correo{
+    display: none;
+}
+
+footer .contacto i{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer .instagram{
+    color: white;
+    margin-right: 10px;
+}
+footer .facebook{
+    color: white;
+    margin-right: 10px;
+}
+footer .github{
+    color: white;
+    margin-right: 10px;
+}
+footer .linkedin{
+    color: white;
+    margin-right: 10px;
+}
+
+footer  .fi-brands-instagram{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 720px){
+
+
+    h2{font-size: 3.2em;}
+    li{ font-size: 1.7em;}
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }.</li>
+
+    header a{
+        font-size: 1.2em;
+    }
+
+    #hero{
+        margin-top: 105px;
+        height: 50vh;
+    }
+    #hero h1{
+        font-size: 3em;
+        margin-right: 100px;
+    }
+    #hero .logo-hero img{
+        margin-right: 100px;
+    }
+
+    #soy .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #soy .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #soy .img-container{
+        background-color: gray;
+        background-size: cover;
+        background-position: center center;
+        height: 270px;
+        width: 270px;
+    }
+
+    #nuestros-principios .principios{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    #nuestros-principios p{
+        display: block;
+        width: auto;
+        text-align: justify;
+        font-weight: bold;
+
+    }
+
+    #nuestros-principios h3{
+        margin-top: 0;
+    }
+
+    #nuestros-principios .carta{
+        padding: 15px;
+    }
+
+    #areas-trabajo div .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    footer .contacto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer .contacto h3{
+        display: initial;
+        font-size: 1.4em;
+        color: white;
+    }
+
+    footer .contacto h3:hover{
+        color: #C6D435;
+        font-size: 1.6em;
+    }
+
+    footer .contacto .texto-correo{
+        display: initial;
+        font-size: 1.4em;
+    }
+
+    footer .contacto .texto-correo:hover{
+        color: #C6D435;
+        font-size: 1.6em;
+    }
+
+}
+
+@media (min-width: 1300px){
+    #nuestros-principios p{
+        width: 400px;
+    }
+}
+
+@font-face{
+    font-family: smile;
+    src: url('../fonts/smile.otf');
+}
+@font-face{
+    font-family: luis;
+    src: url('../fonts/Luis.ttf');
+}
